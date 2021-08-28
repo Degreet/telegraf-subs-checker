@@ -1,6 +1,6 @@
 {
   "name": "telegraf-subs-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The Telegraf Subscription Checker for Telegraf v3.39 (TypeScript)",
   "main": "dist/index.js",
   "types": "src/index.ts",
