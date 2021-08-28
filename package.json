@@ -1,0 +1,33 @@
+{
+  "name": "telegraf-subs-checker",
+  "version": "1.0.0",
+  "description": "The Telegraf Subscription Checker for Telegraf v3.39 (TypeScript)",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/test.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "telegraf",
+    "telegram",
+    "bot",
+    "subscribe",
+    "check",
+    "validate",
+    "subs checker"
+  ],
+  "author": "Degreet <degreetpro@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "3.39"
+  },
+  "devDependencies": {
+    "@types/config": "^0.0.39",
+    "@types/node": "^16.7.4",
+    "config": "^3.3.6",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
